@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.google.com/specimen/DM+Sans');
 
 :root {
     --var-main-red: #DD2242;
@@ -120,7 +120,6 @@ header.header {
     margin-left: 200px;
     color: white;
     text-transform: uppercase;
-    padding: calc(2.7vw +47px);
 }
 
 .start-btn {
@@ -222,7 +221,7 @@ header.header {
 }
 
 .content h2 {
-    font-family: "DM Sans" sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-size: 42px;
     font-weight: 700;
     line-height: 50px;
@@ -231,7 +230,7 @@ header.header {
 }
 
 .content p {
-    font-family: "DM Sans";
+    font-family: "DM Sans", sans-serif;
     font-size: 18px;
     font-weight: 400;
     text-align: left;
@@ -275,7 +274,7 @@ header.header {
 
 h2 {
     font-weight: 700;
-    font-family: "DM Sans" sans-serif;
+    font-family: "DM Sans", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -316,19 +315,19 @@ h2 {
 }
 
 .numbers h2 {
-    font-family: "DM Sans" sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-size: 60px;
     font-weight: 700;
 }
 
 .numbers p {
-    font-family: "DM Sans";
+    font-family: "DM Sans",sans-serif;
     font-weight: 400;
     font-size: 18px;
 }
 
 .numbers span {
-    font-family: "DM Sans" sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-size: 42px;
     font-weight: 700;
     color: #DD2242;
@@ -363,14 +362,14 @@ h2 {
 
 h1 {
     width: 614px;
-    font-family: "DM Sans";
+    font-family: "DM Sans", sans-serif;
     font-size: 42px;
     font-weight: 700;
 }
 
 .valley p {
     width: 470px;
-    font-family: "DM Sans";
+    font-family: "DM Sans", sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
@@ -399,7 +398,7 @@ h1 {
 }
 
 .life h2 {
-    font-family: "DM Sans";
+    font-family: "DM Sans", sans-serif;
     font-size: 42px;
     font-weight: 700;
     text-align: center;
@@ -437,7 +436,7 @@ h1 {
 
 
 .country h4 {
-    font-family: "DM Sans";
+    font-family: "DM Sans",sans-serif;
     font-size: 18px;
     font-weight: 700;
     margin-top: 15px;
@@ -445,7 +444,7 @@ h1 {
 }
 
 .country p {
-    font-family: "DM Sans";
+    font-family: "DM Sans", sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
@@ -463,12 +462,12 @@ h1 {
     gap: 70px;
 }
 .photo h2{
-    font-family: "DM Sans";
+    font-family: "DM Sans", sans-serif;
     font-size: 60px;
     font-weight: 700;
 }
 .photo p{
-    font-family: "DM Sans";
+    font-family: "DM Sans", sans-serif;
     font-size: 18px;
     font-weight: 400;
     width: 511px;
@@ -531,7 +530,7 @@ footer{
 }
 .left ul a{
     width: 56px;
-    font-family: "DM Sans";
+    font-family: "DM Sans", sans-serif;
     font-size: 18px;
     font-weight: 700;
     text-align: left;
@@ -540,4 +539,52 @@ footer{
 .right{
     display: flex;
     gap: 50px;
+}
+@media(max-width: 600px ){
+    .banner-title {
+    font-size: 58.15px;
+    font-weight: 900;
+    line-height: 63px;
+    width: 314px;
+    height: 126px;
+    margin-top: 153px;
+    margin-left: 10px;
+    }
+    .progress-bar-container {
+        display: none;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .wrapper {
+     width: 148.82px;
+    height: 59.8px;
+    top: 48px;
+    left: 24px;
+    }
+    .nav-icons {
+        width: 24.01px;
+        height: 24px;
+        top: 58px;
+        left: 267px;
+    }
+    .start-btn {  
+     width: 315px;
+    height: 59px;
+    margin-top: 8px;
+    margin-left: 29px;
+    padding: 10.2px 0px 0px 0px;
+    gap: 5.1px;
+    border-radius: 100;
+    }
+    .travel-cards-wrapper{
+    width: 314px;
+    height: 472px;
+    top: 54px;
+    left: 30px;
+    border: 1px 0px 0px 0px;
+    opacity: 0.6px;
+
+
+    }
 }
